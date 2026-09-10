@@ -17,7 +17,7 @@ n_list = [10, 20, 33, 40, 55, 61, 78, 80, 91, 100]
 r_list = list(combinations(n_list,3))
 re = 0
 for i in r_list:
-    if sum(i)<150 and 150-sum(i)<150-re:
+    if sum(i)<=150 and 150-sum(i)<150-re:
         re = sum(i)
 
 print(re)
