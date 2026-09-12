@@ -20,4 +20,8 @@ for i in r_list:
     if sum(i)<=150 and 150-sum(i)<150-re:
         re = sum(i)
 
-print(re)
+if re == 0:
+    print("불가능")
+
+else:
+    print(re)
